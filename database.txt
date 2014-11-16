@@ -1,0 +1,37 @@
+members table:
+CREATE TABLE members(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar( 50 ) ,
+college_name varchar( 100 ) ,
+email varchar( 50 ) ,
+phone varchar( 15 )
+)
+
+
+office bearers
+CREATE TABLE office_bearers(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar( 50 ) ,
+email varchar(50),
+designation varchar( 100 ) ,
+about text( 1000 )
+)
+
+
+carousel images
+CREATE TABLE carousel(
+id int AUTO_INCREMENT PRIMARY KEY
+)
+
+events
+CREATE TABLE EVENTS (
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar( 50 ) ,
+about varchar( 1000 )
+)
+
+login info 
+CREATE TABLE login_info(
+username varchar( 40 ) UNIQUE ,
+PASSWORD varchar( 40 )
+)
